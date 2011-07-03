@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		658B6E7F13C0BEDB00F0E052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6E7E13C0BEDB00F0E052 /* Cocoa.framework */; };
+		658B6E8913C0BEDB00F0E052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 658B6E8713C0BEDB00F0E052 /* InfoPlist.strings */; };
+		658B6E8C13C0BEDC00F0E052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B6E8B13C0BEDB00F0E052 /* main.m */; };
+		658B6E8F13C0BEDC00F0E052 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 658B6E8D13C0BEDC00F0E052 /* Credits.rtf */; };
+		658B6E9213C0BEDC00F0E052 /* RecipesDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B6E9113C0BEDC00F0E052 /* RecipesDocument.m */; };
+		658B6E9513C0BEDC00F0E052 /* RecipesDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658B6E9313C0BEDC00F0E052 /* RecipesDocument.xib */; };
+		658B6E9813C0BEDC00F0E052 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658B6E9613C0BEDC00F0E052 /* MainMenu.xib */; };
+		658B6E9B13C0BEDC00F0E052 /* RecipesDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 658B6E9913C0BEDC00F0E052 /* RecipesDocument.xcdatamodeld */; };
+		658B6EA213C0BEDC00F0E052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6E7E13C0BEDB00F0E052 /* Cocoa.framework */; };
+		658B6EAA13C0BEDC00F0E052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 658B6EA813C0BEDC00F0E052 /* InfoPlist.strings */; };
+		658B6EAD13C0BEDC00F0E052 /* Vermont_RecipesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 658B6EAC13C0BEDC00F0E052 /* Vermont_RecipesTests.h */; };
+		658B6EAF13C0BEDC00F0E052 /* Vermont_RecipesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B6EAE13C0BEDC00F0E052 /* Vermont_RecipesTests.m */; };
+		658B6EB713C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 658B6EB413C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter */; };
+		658B6EB913C0BEDC00F0E052 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6EB813C0BEDC00F0E052 /* CoreServices.framework */; };
+		658B6EBB13C0BEDC00F0E052 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6EBA13C0BEDC00F0E052 /* CoreFoundation.framework */; };
+		658B6EBD13C0BEDC00F0E052 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6EBC13C0BEDC00F0E052 /* CoreData.framework */; };
+		658B6EBF13C0BEDC00F0E052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B6EBE13C0BEDC00F0E052 /* Foundation.framework */; };
+		658B6EC513C0BEDC00F0E052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 658B6EC313C0BEDC00F0E052 /* InfoPlist.strings */; };
+		658B6EC813C0BEDC00F0E052 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 658B6EC713C0BEDC00F0E052 /* main.c */; };
+		658B6ECA13C0BEDC00F0E052 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B6EC913C0BEDC00F0E052 /* GetMetadataForFile.m */; };
+		658B6ECD13C0BEDC00F0E052 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B6ECC13C0BEDC00F0E052 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		658B6EA313C0BEDC00F0E052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658B6E7113C0BEDB00F0E052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658B6E7913C0BEDB00F0E052;
+			remoteInfo = "Vermont Recipes";
+		};
+		658B6EB513C0BEDC00F0E052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658B6E7113C0BEDB00F0E052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658B6EB313C0BEDC00F0E052;
+			remoteInfo = "Vermont RecipesImporter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		658B6E7A13C0BEDB00F0E052 /* Vermont Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vermont Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B6E7E13C0BEDB00F0E052 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		658B6E8113C0BEDB00F0E052 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		658B6E8213C0BEDB00F0E052 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		658B6E8313C0BEDB00F0E052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		658B6E8613C0BEDB00F0E052 /* Vermont Recipes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vermont Recipes-Info.plist"; sourceTree = "<group>"; };
+		658B6E8813C0BEDB00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		658B6E8A13C0BEDB00F0E052 /* Vermont Recipes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vermont Recipes-Prefix.pch"; sourceTree = "<group>"; };
+		658B6E8B13C0BEDB00F0E052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		658B6E8E13C0BEDC00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		658B6E9013C0BEDC00F0E052 /* RecipesDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipesDocument.h; sourceTree = "<group>"; };
+		658B6E9113C0BEDC00F0E052 /* RecipesDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipesDocument.m; sourceTree = "<group>"; };
+		658B6E9413C0BEDC00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RecipesDocument.xib; sourceTree = "<group>"; };
+		658B6E9713C0BEDC00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		658B6E9A13C0BEDC00F0E052 /* RecipesDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipesDocument.xcdatamodel; sourceTree = "<group>"; };
+		658B6EA113C0BEDC00F0E052 /* Vermont RecipesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vermont RecipesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B6EA713C0BEDC00F0E052 /* Vermont RecipesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vermont RecipesTests-Info.plist"; sourceTree = "<group>"; };
+		658B6EA913C0BEDC00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		658B6EAB13C0BEDC00F0E052 /* Vermont RecipesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vermont RecipesTests-Prefix.pch"; sourceTree = "<group>"; };
+		658B6EAC13C0BEDC00F0E052 /* Vermont_RecipesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vermont_RecipesTests.h; sourceTree = "<group>"; };
+		658B6EAE13C0BEDC00F0E052 /* Vermont_RecipesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vermont_RecipesTests.m; sourceTree = "<group>"; };
+		658B6EB413C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vermont RecipesImporter.mdimporter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B6EB813C0BEDC00F0E052 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		658B6EBA13C0BEDC00F0E052 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		658B6EBC13C0BEDC00F0E052 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		658B6EBE13C0BEDC00F0E052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		658B6EC213C0BEDC00F0E052 /* Vermont RecipesImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vermont RecipesImporter-Info.plist"; sourceTree = "<group>"; };
+		658B6EC413C0BEDC00F0E052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		658B6EC613C0BEDC00F0E052 /* Vermont RecipesImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vermont RecipesImporter-Prefix.pch"; sourceTree = "<group>"; };
+		658B6EC713C0BEDC00F0E052 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		658B6EC913C0BEDC00F0E052 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		658B6ECB13C0BEDC00F0E052 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		658B6ECC13C0BEDC00F0E052 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		658B6ECE13C0BEDC00F0E052 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658B6E7713C0BEDB00F0E052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6E7F13C0BEDB00F0E052 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6E9D13C0BEDC00F0E052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EA213C0BEDC00F0E052 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6EB113C0BEDC00F0E052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EB913C0BEDC00F0E052 /* CoreServices.framework in Frameworks */,
+				658B6EBB13C0BEDC00F0E052 /* CoreFoundation.framework in Frameworks */,
+				658B6EBD13C0BEDC00F0E052 /* CoreData.framework in Frameworks */,
+				658B6EBF13C0BEDC00F0E052 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		658B6E6F13C0BEDB00F0E052 = {
+			isa = PBXGroup;
+			children = (
+				658B6E8413C0BEDB00F0E052 /* Vermont Recipes */,
+				658B6EA513C0BEDC00F0E052 /* Vermont RecipesTests */,
+				658B6EC013C0BEDC00F0E052 /* Vermont RecipesImporter */,
+				658B6E7D13C0BEDB00F0E052 /* Frameworks */,
+				658B6E7B13C0BEDB00F0E052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		658B6E7B13C0BEDB00F0E052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658B6E7A13C0BEDB00F0E052 /* Vermont Recipes.app */,
+				658B6EA113C0BEDC00F0E052 /* Vermont RecipesTests.octest */,
+				658B6EB413C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658B6E7D13C0BEDB00F0E052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658B6E7E13C0BEDB00F0E052 /* Cocoa.framework */,
+				658B6EB813C0BEDC00F0E052 /* CoreServices.framework */,
+				658B6EBA13C0BEDC00F0E052 /* CoreFoundation.framework */,
+				658B6EBC13C0BEDC00F0E052 /* CoreData.framework */,
+				658B6EBE13C0BEDC00F0E052 /* Foundation.framework */,
+				658B6E8013C0BEDB00F0E052 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658B6E8013C0BEDB00F0E052 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658B6E8113C0BEDB00F0E052 /* AppKit.framework */,
+				658B6E8213C0BEDB00F0E052 /* CoreData.framework */,
+				658B6E8313C0BEDB00F0E052 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		658B6E8413C0BEDB00F0E052 /* Vermont Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				658B6E9013C0BEDC00F0E052 /* RecipesDocument.h */,
+				658B6E9113C0BEDC00F0E052 /* RecipesDocument.m */,
+				658B6E9313C0BEDC00F0E052 /* RecipesDocument.xib */,
+				658B6E9613C0BEDC00F0E052 /* MainMenu.xib */,
+				658B6E9913C0BEDC00F0E052 /* RecipesDocument.xcdatamodeld */,
+				658B6E8513C0BEDB00F0E052 /* Supporting Files */,
+			);
+			path = "Vermont Recipes";
+			sourceTree = "<group>";
+		};
+		658B6E8513C0BEDB00F0E052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				658B6E8613C0BEDB00F0E052 /* Vermont Recipes-Info.plist */,
+				658B6E8713C0BEDB00F0E052 /* InfoPlist.strings */,
+				658B6E8A13C0BEDB00F0E052 /* Vermont Recipes-Prefix.pch */,
+				658B6E8B13C0BEDB00F0E052 /* main.m */,
+				658B6E8D13C0BEDC00F0E052 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		658B6EA513C0BEDC00F0E052 /* Vermont RecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				658B6EAC13C0BEDC00F0E052 /* Vermont_RecipesTests.h */,
+				658B6EAE13C0BEDC00F0E052 /* Vermont_RecipesTests.m */,
+				658B6EA613C0BEDC00F0E052 /* Supporting Files */,
+			);
+			path = "Vermont RecipesTests";
+			sourceTree = "<group>";
+		};
+		658B6EA613C0BEDC00F0E052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				658B6EA713C0BEDC00F0E052 /* Vermont RecipesTests-Info.plist */,
+				658B6EA813C0BEDC00F0E052 /* InfoPlist.strings */,
+				658B6EAB13C0BEDC00F0E052 /* Vermont RecipesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		658B6EC013C0BEDC00F0E052 /* Vermont RecipesImporter */ = {
+			isa = PBXGroup;
+			children = (
+				658B6EC913C0BEDC00F0E052 /* GetMetadataForFile.m */,
+				658B6ECB13C0BEDC00F0E052 /* MySpotlightImporter.h */,
+				658B6ECC13C0BEDC00F0E052 /* MySpotlightImporter.m */,
+				658B6ECE13C0BEDC00F0E052 /* Importer Read Me.txt */,
+				658B6EC113C0BEDC00F0E052 /* Supporting Files */,
+			);
+			path = "Vermont RecipesImporter";
+			sourceTree = "<group>";
+		};
+		658B6EC113C0BEDC00F0E052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				658B6EC213C0BEDC00F0E052 /* Vermont RecipesImporter-Info.plist */,
+				658B6EC313C0BEDC00F0E052 /* InfoPlist.strings */,
+				658B6EC613C0BEDC00F0E052 /* Vermont RecipesImporter-Prefix.pch */,
+				658B6EC713C0BEDC00F0E052 /* main.c */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658B6E7913C0BEDB00F0E052 /* Vermont Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658B6ED413C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont Recipes" */;
+			buildPhases = (
+				658B6E7613C0BEDB00F0E052 /* Sources */,
+				658B6E7713C0BEDB00F0E052 /* Frameworks */,
+				658B6E7813C0BEDB00F0E052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658B6EB613C0BEDC00F0E052 /* PBXTargetDependency */,
+			);
+			name = "Vermont Recipes";
+			productName = "Vermont Recipes";
+			productReference = 658B6E7A13C0BEDB00F0E052 /* Vermont Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		658B6EA013C0BEDC00F0E052 /* Vermont RecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658B6ED713C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont RecipesTests" */;
+			buildPhases = (
+				658B6E9C13C0BEDC00F0E052 /* Sources */,
+				658B6E9D13C0BEDC00F0E052 /* Frameworks */,
+				658B6E9E13C0BEDC00F0E052 /* Resources */,
+				658B6E9F13C0BEDC00F0E052 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658B6EA413C0BEDC00F0E052 /* PBXTargetDependency */,
+			);
+			name = "Vermont RecipesTests";
+			productName = "Vermont RecipesTests";
+			productReference = 658B6EA113C0BEDC00F0E052 /* Vermont RecipesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		658B6EB313C0BEDC00F0E052 /* Vermont RecipesImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658B6ED113C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont RecipesImporter" */;
+			buildPhases = (
+				658B6EB013C0BEDC00F0E052 /* Sources */,
+				658B6EB113C0BEDC00F0E052 /* Frameworks */,
+				658B6EB213C0BEDC00F0E052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vermont RecipesImporter";
+			productName = "Vermont RecipesImporter";
+			productReference = 658B6EB413C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658B6E7113C0BEDB00F0E052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cengage Learning";
+			};
+			buildConfigurationList = 658B6E7413C0BEDB00F0E052 /* Build configuration list for PBXProject "Vermont Recipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 658B6E6F13C0BEDB00F0E052;
+			productRefGroup = 658B6E7B13C0BEDB00F0E052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658B6E7913C0BEDB00F0E052 /* Vermont Recipes */,
+				658B6EA013C0BEDC00F0E052 /* Vermont RecipesTests */,
+				658B6EB313C0BEDC00F0E052 /* Vermont RecipesImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658B6E7813C0BEDB00F0E052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6E8913C0BEDB00F0E052 /* InfoPlist.strings in Resources */,
+				658B6E8F13C0BEDC00F0E052 /* Credits.rtf in Resources */,
+				658B6E9513C0BEDC00F0E052 /* RecipesDocument.xib in Resources */,
+				658B6E9813C0BEDC00F0E052 /* MainMenu.xib in Resources */,
+				658B6EB713C0BEDC00F0E052 /* Vermont RecipesImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6E9E13C0BEDC00F0E052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EAA13C0BEDC00F0E052 /* InfoPlist.strings in Resources */,
+				658B6EAD13C0BEDC00F0E052 /* Vermont_RecipesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6EB213C0BEDC00F0E052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EC513C0BEDC00F0E052 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658B6E9F13C0BEDC00F0E052 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658B6E7613C0BEDB00F0E052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6E8C13C0BEDC00F0E052 /* main.m in Sources */,
+				658B6E9213C0BEDC00F0E052 /* RecipesDocument.m in Sources */,
+				658B6E9B13C0BEDC00F0E052 /* RecipesDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6E9C13C0BEDC00F0E052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EAF13C0BEDC00F0E052 /* Vermont_RecipesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658B6EB013C0BEDC00F0E052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658B6EC813C0BEDC00F0E052 /* main.c in Sources */,
+				658B6ECA13C0BEDC00F0E052 /* GetMetadataForFile.m in Sources */,
+				658B6ECD13C0BEDC00F0E052 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		658B6EA413C0BEDC00F0E052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658B6E7913C0BEDB00F0E052 /* Vermont Recipes */;
+			targetProxy = 658B6EA313C0BEDC00F0E052 /* PBXContainerItemProxy */;
+		};
+		658B6EB613C0BEDC00F0E052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658B6EB313C0BEDC00F0E052 /* Vermont RecipesImporter */;
+			targetProxy = 658B6EB513C0BEDC00F0E052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		658B6E8713C0BEDB00F0E052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6E8813C0BEDB00F0E052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		658B6E8D13C0BEDC00F0E052 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6E8E13C0BEDC00F0E052 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		658B6E9313C0BEDC00F0E052 /* RecipesDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6E9413C0BEDC00F0E052 /* en */,
+			);
+			name = RecipesDocument.xib;
+			sourceTree = "<group>";
+		};
+		658B6E9613C0BEDC00F0E052 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6E9713C0BEDC00F0E052 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		658B6EA813C0BEDC00F0E052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6EA913C0BEDC00F0E052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		658B6EC313C0BEDC00F0E052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658B6EC413C0BEDC00F0E052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		658B6ECF13C0BEDC00F0E052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		658B6ED013C0BEDC00F0E052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		658B6ED213C0BEDC00F0E052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont RecipesImporter/Vermont RecipesImporter-Prefix.pch";
+				INFOPLIST_FILE = "Vermont RecipesImporter/Vermont RecipesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		658B6ED313C0BEDC00F0E052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont RecipesImporter/Vermont RecipesImporter-Prefix.pch";
+				INFOPLIST_FILE = "Vermont RecipesImporter/Vermont RecipesImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		658B6ED513C0BEDC00F0E052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont Recipes/Vermont Recipes-Prefix.pch";
+				INFOPLIST_FILE = "Vermont Recipes/Vermont Recipes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		658B6ED613C0BEDC00F0E052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont Recipes/Vermont Recipes-Prefix.pch";
+				INFOPLIST_FILE = "Vermont Recipes/Vermont Recipes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		658B6ED813C0BEDC00F0E052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vermont Recipes.app/Contents/MacOS/Vermont Recipes";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont RecipesTests/Vermont RecipesTests-Prefix.pch";
+				INFOPLIST_FILE = "Vermont RecipesTests/Vermont RecipesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		658B6ED913C0BEDC00F0E052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vermont Recipes.app/Contents/MacOS/Vermont Recipes";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vermont RecipesTests/Vermont RecipesTests-Prefix.pch";
+				INFOPLIST_FILE = "Vermont RecipesTests/Vermont RecipesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658B6E7413C0BEDB00F0E052 /* Build configuration list for PBXProject "Vermont Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658B6ECF13C0BEDC00F0E052 /* Debug */,
+				658B6ED013C0BEDC00F0E052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658B6ED113C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont RecipesImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658B6ED213C0BEDC00F0E052 /* Debug */,
+				658B6ED313C0BEDC00F0E052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		658B6ED413C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658B6ED513C0BEDC00F0E052 /* Debug */,
+				658B6ED613C0BEDC00F0E052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		658B6ED713C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont RecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658B6ED813C0BEDC00F0E052 /* Debug */,
+				658B6ED913C0BEDC00F0E052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		658B6E9913C0BEDC00F0E052 /* RecipesDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				658B6E9A13C0BEDC00F0E052 /* RecipesDocument.xcdatamodel */,
+			);
+			currentVersion = 658B6E9A13C0BEDC00F0E052 /* RecipesDocument.xcdatamodel */;
+			path = RecipesDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 658B6E7113C0BEDB00F0E052 /* Project object */;
+}
