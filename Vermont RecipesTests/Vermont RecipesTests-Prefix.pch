@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Vermont RecipesTests' target in the 'Vermont RecipesTests' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
