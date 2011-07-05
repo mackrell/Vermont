@@ -7,6 +7,8 @@
 //
 
 #import "RecipesDocument.h"
+#import "RecipesWindowController.h"
+
 
 @implementation RecipesDocument
 
@@ -20,17 +22,11 @@
     return self;
 }
 
-- (NSString *)windowNibName
-{
-	// Override returning the nib file name of the document
-	// If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-	return @"RecipesDocument";
-}
-
-- (void)windowControllerDidLoadNib:(NSWindowController *)aController
-{
-	[super windowControllerDidLoadNib:aController];
-	// Add any code here that needs to be executed once the windowController has loaded the document's window.
+- (void)makeWindowControllers {
+	RecipesWindowController *controller =
+	[[RecipesWindowController alloc] initWithWindowNibName: @"RecipesWindow"];
+	[self addWindowController:controller];
+	[controller release];
 }
 
 @end
