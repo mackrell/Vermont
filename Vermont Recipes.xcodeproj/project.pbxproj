@@ -616,6 +616,7 @@
 				658B6ED313C0BEDC00F0E052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		658B6ED413C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont Recipes" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +625,7 @@
 				658B6ED613C0BEDC00F0E052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		658B6ED713C0BEDC00F0E052 /* Build configuration list for PBXNativeTarget "Vermont RecipesTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +634,7 @@
 				658B6ED913C0BEDC00F0E052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
